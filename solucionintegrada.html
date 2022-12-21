@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<title>Equimif</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!--NavBar Geral-->
+<header>
+  <nav class="navbar">
+      <a href="index.html" class="nav-branding"   ><img src="assets/logo_horizontal semfundo.png" style="width: 40%;"></a>
+
+      <ul class="nav-menu"> 
+          <li class="nav-item">
+              <a href="index.html" class="nav-link">Empresa</a>
+          </li>
+          <li class="nav-item">
+                  <a href="servicios.html" class="nav-link">Servicios</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+              <a href="asociaciones.html" class="nav-link">Clientes</a>
+          </li>
+          <li class="nav-item">
+              <a href="carreras.html" class="nav-link">Carreras</a>
+          </li>
+          <!--
+          <li class="nav-item">
+              <a href="contactos.html" class="nav-link">Contactos</a>
+          </li>
+          -->
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><a class= "nav-link">Contactos</a></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a class="nav-link" href="contactos.html">España<img style="width: 15%; margin-left: 3%;" src="assets/bandeiraespanha.png"></a>
+              <a class="nav-link" href="contactospt.html">Portugal<img style="width: 15%; margin-left: 3%;" src="assets/bandeiraportugal.png"></a>
+            </div>
+          </div>
+      </ul>
+
+  </nav>
+</header>
+
+<!--Fim NavBar Geral-->
+
+<!--Título Página-->
+
+<div class="video" >
+    <div  class="textovideoservicios" >
+        <h1>Solución de Gestión Integrada</h1>
+        <p style="text-align: center;
+        font-size: small;">Servicios Equimif</p>
+    </div>
+    <video  loop="loop" autoplay="" playsinline="" muted="" id="video" preload="none" src="assets/Fundo Azul.mp4">
+        <source type="video/mp4">
+</div>
+<!--Fim Título Página-->
+
+
+<div class="w3-panel w3-mobile ">
+
+        <div class="w3-half w3-mobile">
+          <img class="ajusteimagemservicios" src="assets/solucion.jpg">
+        </div>
+        <div class="w3-half w3-mobile ajustetextoservicios">
+          <p>
+            Dentro de los límites de su competencia de gestión del conjunto de equipos y apoyado en sistemas de información avanzados, diseñados para Equimif,
+             satisface las necesidades del mercado, ofreciendo servicios integrados con las estructuras existentes del cliente, sin necesidad de adaptaciones importantes.
+          </p>
+          <br>
+          <p>El objetivo principal es la simplificación de los procedimientos, qué permitan a los clientes de Equimif se centraren en lo que es realmente importante para su empresa</p>
+          <p>El proceso de implementación se desarrolla en dos módulos:</p>
+          
+
+          <h4 style="text-decoration:underline;">Estructural:</h4>
+          <ol style="margin-left:2%">
+            <li>>Estudio de los procesos y las necesidades del cliente.</li>
+            <li>>Construcción o adaptación de sistemas de Equimif para atender las necesidades del cliente.</li>
+            <li>>Definición de mecanismos de intercambio de información y personas de contacto para las distintas áreas.</li>
+            <li>>Aplicación de los procedimientos convenidos.</li>
+            <li>>Soluciones de renting de medios de frio.</li>
+          </ol>
+
+          <h4 style="text-decoration:underline;">Software:</h4>
+          <ol style="margin-left:2%">
+            <li>>Estudio de los procesos y las necesidades del ERP del cliente.</li>
+            <li>>Selección del método de intercambio de datos (webservice, cómo compartir archivos, etc.)</li>
+            <li>>Construcción del diseño de información a enviar.</li>
+            <li>>Construcción del diseño de información a recibir.</li>
+            <li>>Definir la periodicidad de la presentación y recepción de la información.</li>
+            <li>>Preparación de la sliución convenida.</li>
+            <li>>Fase de pruebas.</li>
+            <li>>Puesta en práctica.</li>
+            <li>>Seguimiento diario del flujo de información.</li>
+          </ol>
+        </div>
+</div>
+
+
+
+<!--Footer-->
+<div class="w3-panel w3-white">
+  <hr>
+  <div class="w3-col s4 w3-mobile w3-center">
+      <h3>Desea obtner más información?</h3>
+  </div>
+  <div class="w3-col s4 w3-mobile w3-center">
+      <p style="margin-top: 2%;"><button class="w3-button  w3-blue w3-round-xxlarge" ><a href="servicios.html">SERVICIOS</a></button></p>
+  </div>
+  <div class="w3-col s4 w3-mobile w3-center">
+      <p style="margin-top: 2%;"><button class="w3-button w3-blue w3-round-xxlarge"><a href="contactos.html" >CONTÁCTENOS</a></button></p>
+
+</div>
+</div>
+
+<!--Fim Footer-->
+
+<div class="w3-mobile quadrado">
+  <div class="list">
+      <p style="text-align: center">&copy;<script>document.write(new Date().getFullYear())</script> Equimif. All Rights Reserved</p>
+  </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+

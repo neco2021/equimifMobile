@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<title>Equimif</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!--NavBar Geral-->
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="nav-branding"   ><img src="assets/logo_horizontal semfundo.png" style="width: 40%;"></a>
+  
+        <ul class="nav-menu"> 
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Empresa</a>
+            </li>
+            <li class="nav-item">
+                    <a href="servicios.html" class="nav-link">Servicios</a>
+              </div>
+            </li>
+  
+            <li class="nav-item">
+                <a href="asociaciones.html" class="nav-link">Clientes</a>
+            </li>
+            <li class="nav-item">
+                <a href="carreras.html" class="nav-link">Carreras</a>
+            </li>
+            <!--
+            <li class="nav-item">
+                <a href="contactos.html" class="nav-link">Contactos</a>
+            </li>
+            -->
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn"><a class= "nav-link">Contactos</a></button>
+              <div id="myDropdown" class="dropdown-content">
+                <a class="nav-link" href="contactos.html">España<img style="width: 15%; margin-left: 3%;" src="assets/bandeiraespanha.png"></a>
+                <a class="nav-link" href="contactospt.html">Portugal<img style="width: 15%; margin-left: 3%;" src="assets/bandeiraportugal.png"></a>
+              </div>
+            </div>
+        </ul>
+  
+    </nav>
+  </header>
+  
+  <!--Fim NavBar Geral-->
+
+<!--Título Página-->
+
+<div class="video">
+  <div class="textovideocontactos">
+      <h1>Contactos</h1>
+      <p style="text-align: center;
+      font-size: small;">Donde estan nuestros centros operativos en Portugal</p>
+  </div>
+  <video loop="loop" autoplay="" playsinline="" muted="" id="video" preload="none" src="assets/Fundo Azul.mp4">
+      <source type="video/mp4">
+</div>
+
+
+<!--Fim Título Página-->
+
+
+<div class="w3-container w3-mobile w3-center "  >    
+<div class="w3-bar w3-light-grey w3-border w3-mobile w3-border-blue ajustecontactos " style="width: 60%; margin-top: 21%;" id="nomeOficina">
+  <a class="w3-bar-item w3-mobile w3-button" onclick="openPlace('central')">Oficina Central</a>
+  <a class="w3-bar-item w3-mobile w3-button" onclick="openPlace('bilbao')"> Almazen Azambuja</a>
+  <a class="w3-bar-item w3-mobile w3-button" onclick="openPlace('santiago')"> Almazen Trofa</a>
+  <a class="w3-bar-item w3-mobile w3-button" onclick="openPlace('malaga')"> Almazen Santo Tirso</a>
+  <a class="w3-bar-item w3-mobile w3-button" onclick="openPlace('sevilla')"> Almazen Azambuja Estação</a>
+  <a class="w3-bar-item w3-mobile w3-button" onclick="openPlace('valencia')"> Almazen Faro</a>
+  <a class="w3-bar-item w3-mobile w3-button" onclick="openPlace('madrid')"> Support Center</a>
+</div>
+
+
+<div id="central" class="w3-container w3-display-container w3-mobile Oficina" >
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3111.0585813900802!2d-9.181720585208367!3d38.76236036249863!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1932cfe3350caf%3A0x8aaab8a900b7579f!2sR.%20Padre%20Am%C3%A9rico%2020D%2C%201600-548%20Lisboa!5e0!3m2!1spt-PT!2spt!4v1671017599887!5m2!1spt-PT!2spt" width="912" height="557" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+</div>
+
+<div id="bilbao" class="w3-container w3-display-container Oficina" style="display:none">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3098.2927596903073!2d-8.907703085198838!3d39.0542419452897!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd18dea32fde885d%3A0xd1b26e989ecd2e4f!2sLuis%20Sim%C3%B5es%20(Azambuja)!5e0!3m2!1spt-PT!2spt!4v1671017861938!5m2!1spt-PT!2spt" width="912" height="557" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div id="santiago" class="w3-container w3-display-container Oficina" style="display:none">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.5642194675784!2d-8.519605872932654!3d41.325232616427584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd245f75136e1223%3A0x5736945e24d9d6d3!2sEquione%20-%20Trofa!5e0!3m2!1spt-PT!2spt!4v1671018013356!5m2!1spt-PT!2spt" width="912" height="557" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div id="malaga" class="w3-container w3-display-container Oficina" style="display:none">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d850.9828535133083!2d-8.4921565330445!3d41.3580515991616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd245f5098f54b27%3A0xb41a9ea01c183b8f!2sR.%20Parque%20Industrial%205%2C%20Palmeira!5e0!3m2!1spt-PT!2spt!4v1671018125215!5m2!1spt-PT!2spt" width="912" height="557" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <div id="sevilla" class="w3-container w3-display-container Oficina" style="display:none">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d387.21452653732155!2d-8.867339!3d39.067381!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfbaa67bf880ded08!2zMznCsDA0JzAyLjkiTiA4wrA1MicwMi4zIlc!5e0!3m2!1sen!2sus!4v1671018286267!5m2!1sen!2sus" width="912" height="557" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <div id="valencia" class="w3-container w3-display-container Oficina" style="display:none">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d654.3842957880582!2d-7.927173019507095!3d37.0849448202945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1aade54748bf73%3A0x5c9db88312f61001!2sLuis%20Sim%C3%B5es%20Col%20Faro!5e0!3m2!1sen!2sus!4v1671018632852!5m2!1sen!2sus" width="912" height="557" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+  <div id="madrid" class="w3-container w3-display-container Oficina" style="display:none">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d457.0421802359224!2d-9.081207794440848!3d38.834721261112286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd192e67128e816f%3A0xf677117c42723c6c!2zRmltYSBPbMOh!5e0!3m2!1spt-PT!2spt!4v1671018741490!5m2!1spt-PT!2spt" width="912" height="557" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+</div>
+
+
+
+</div>
+</div>
+
+<div class="w3-mobile quadrado">
+  <div class="list">
+      <p style="text-align: center">&copy;<script>document.write(new Date().getFullYear())</script> Equimif. All Rights Reserved</p>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

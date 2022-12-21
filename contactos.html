@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<title>Equimif</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!--NavBar Geral-->
+<header>
+  <nav class="navbar">
+      <a href="index.html" class="nav-branding"   ><img src="assets/logo_horizontal semfundo.png" style="width: 40%;"></a>
+
+      <ul class="nav-menu"> 
+          <li class="nav-item">
+              <a href="index.html" class="nav-link">Empresa</a>
+          </li>
+          <li class="nav-item">
+                  <a href="servicios.html" class="nav-link">Servicios</a>
+            </div>
+          </li>
+
+          <li class="nav-item">
+              <a href="asociaciones.html" class="nav-link">Clientes</a>
+          </li>
+          <li class="nav-item">
+              <a href="carreras.html" class="nav-link">Carreras</a>
+          </li>
+          <!--
+          <li class="nav-item">
+              <a href="contactos.html" class="nav-link">Contactos</a>
+          </li>
+          -->
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn"><a class= "nav-link">Contactos</a></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a class="nav-link" href="contactos.html">España<img style="width: 15%; margin-left: 3%;" src="assets/bandeiraespanha.png"></a>
+              <a class="nav-link" href="contactospt.html">Portugal<img style="width: 15%; margin-left: 3%;" src="assets/bandeiraportugal.png"></a>
+            </div>
+          </div>
+      </ul>
+
+  </nav>
+</header>
+
+<!--Fim NavBar Geral-->
+
+<!--Título Página-->
+
+<div class="video">
+  <div class="textovideocontactos">
+      <h1>Contactos</h1>
+      <p style="text-align: center;
+      font-size: small;">Donde estan nuestros centros operativos en Espãna</p>
+  </div>
+  <video loop="loop" autoplay="" playsinline="" muted="" id="video" preload="none" src="assets/Fundo Azul.mp4">
+      <source type="video/mp4">
+</div>
+
+
+<!--Fim Título Página-->
+
+
+<div class="w3-container w3-mobile w3-center "  >    
+<div class="w3-bar w3-light-grey w3-border w3-mobile w3-border-blue ajustecontactos " style="width: 60%; margin-top: 21%;" id="nomeOficina">
+  <a class="w3-bar-item w3-mobile w3-button" onclick="openPlace('central')">Oficina Central</a>
+  <a class="w3-bar-item w3-mobile w3-button" onclick="openPlace('bilbao')"> Bilbao</a>
+  <a class="w3-bar-item w3-mobile w3-button" onclick="openPlace('santiago')"> Santiago de Compostela</a>
+  <a class="w3-bar-item w3-mobile w3-button" onclick="openPlace('malaga')"> Malaga</a>
+  <a class="w3-bar-item w3-mobile w3-button" onclick="openPlace('sevilla')"> Sevilla</a>
+  <a class="w3-bar-item w3-mobile w3-button" onclick="openPlace('valencia')"> Valencia</a>
+  <a class="w3-bar-item w3-mobile w3-button" onclick="openPlace('madrid')"> Madrid</a>
+</div>
+
+
+<div id="central" class="w3-container w3-display-container w3-mobile Oficina" >
+  <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3037.2434439947565!2d-3.687343!3d40.425608!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4228972ec4f133%3A0x2cd3424988b1a0c2!2sCalle%20de%20Goya%2C%2015%2C%2028001%20Madrid%2C%20Espanha!5e0!3m2!1spt-PT!2sus!4v1667817115539!5m2!1spt-PT!2sus" width="912" height="557" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div id="bilbao" class="w3-container w3-display-container Oficina" style="display:none">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1025.7943365849248!2d-3.0667050200717316!3d43.348066681799416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4e58dd26fcf1e5%3A0xc8579d476896b35f!2sMuelle%203%2C%2048980%2C%20Vizcaya%2C%20Espanha!5e0!3m2!1spt-PT!2spt!4v1667816211150!5m2!1spt-PT!2spt" width="912" height="557" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div id="santiago" class="w3-container w3-display-container Oficina" style="display:none">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1228.7893692292487!2d-8.50754893253377!3d42.903015728581536!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2eff0cb0cbad15%3A0x13aab5126c5c5e2e!2sR%C3%BAa%20de%20Polonia%2C%2022%2C%2015707%20Santiago%20de%20Compostela%2C%20A%20Coru%C3%B1a%2C%20Espanha!5e0!3m2!1spt-PT!2spt!4v1667816454194!5m2!1spt-PT!2spt" width="912" height="557" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+<div id="malaga" class="w3-container w3-display-container Oficina" style="display:none">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3199.066453487211!2d-4.494558884444838!3d36.6969409812046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd72f0a780016da9%3A0xc030e9e8cecd6662!2sCtra.%20de%20la%20Azucarera%20Intelhorce%2C%20128%2C%2029004%20M%C3%A1laga%2C%20Espanha!5e0!3m2!1spt-PT!2spt!4v1667816562991!5m2!1spt-PT!2spt" width="912" height="557" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <div id="sevilla" class="w3-container w3-display-container Oficina" style="display:none">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3171.604155626024!2d-6.00048838475887!3d37.3518791441501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd126dca4cdc339f%3A0xe71af6d2f56c9594!2sZAL%20Sevilla!5e0!3m2!1sen!2spt!4v1670768980321!5m2!1sen!2spt" width="912" height="557" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+
+  <div id="valencia" class="w3-container w3-display-container Oficina" style="display:none">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.296260731199!2d-0.5359130332852062!3d39.48522441548426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6059fd553978b7%3A0x65c535bda1dc390b!2sAv.%20Puerto%20de%20Alicante%2C%20Valencia%2C%20Spain!5e0!3m2!1sen!2spt!4v1670768906381!5m2!1sen!2spt" width="912" height="557" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+  <div id="madrid" class="w3-container w3-display-container Oficina" style="display:none">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d34288.024665973324!2d-3.4125870378254524!3d40.48742907528876!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4249912ce07293%3A0x378becbb7a84ef73!2sWidecare!5e0!3m2!1sen!2spt!4v1670768843307!5m2!1sen!2spt" width="912" height="557" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+
+
+</div>
+
+
+
+</div>
+</div>
+
+<div class="w3-mobile quadrado">
+  <div class="list">
+      <p style="text-align: center">&copy;<script>document.write(new Date().getFullYear())</script> Equimif. All Rights Reserved</p>
+  </div>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

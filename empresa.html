@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<title>Equimif</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<body>
+
+<!--NavBar Geral-->
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="nav-branding"   ><img src="assets/logo_horizontal semfundo.png" style="width: 40%;"></a>
+  
+        <ul class="nav-menu"> 
+            <li class="nav-item">
+                <a href="index.html" class="nav-link">Empresa</a>
+            </li>
+            <li class="nav-item">
+                    <a href="servicios.html" class="nav-link">Servicios</a>
+              </div>
+            </li>
+  
+            <li class="nav-item">
+                <a href="asociaciones.html" class="nav-link">Clientes</a>
+            </li>
+            <li class="nav-item">
+                <a href="carreras.html" class="nav-link">Carreras</a>
+            </li>
+            <!--
+            <li class="nav-item">
+                <a href="contactos.html" class="nav-link">Contactos</a>
+            </li>
+            -->
+            <div class="dropdown">
+              <button onclick="myFunction()" class="dropbtn"><a class= "nav-link">Contactos</a></button>
+              <div id="myDropdown" class="dropdown-content">
+                <a class="nav-link" href="contactos.html">España<img style="width: 15%; margin-left: 3%;" src="assets/bandeiraespanha.png"></a>
+                <a class="nav-link" href="contactospt.html">Portugal<img style="width: 15%; margin-left: 3%;" src="assets/bandeiraportugal.png"></a>
+              </div>
+            </div>
+        </ul>
+  
+    </nav>
+  </header>
+  
+  <!--Fim NavBar Geral-->
+<div class="video">
+    <div  class="textovideo">
+        <h1>Empresa</h1>
+        <p style="font-size: small; ">Los técnicos de Equione cumplen diariamente rutinas de reparaciones y servicios en los puntos de venta.</p>
+    </div>
+    <video loop="loop" autoplay="" playsinline="" muted="" id="video" preload="none" src="assets/Fundo Azul.mp4">
+        <source type="video/mp4">
+</div>
+<!--Fim Título Página-->
+
+
+<!--Cartão com Missão e Valores-->
+<div class="w3-row w3-border w3-mobile w3-card-4 " style="margin-top: 5%;">
+    <div class="w3-container w3-col w3-half w3-mobile w3-margin-left" style="width: 60%;">
+       
+    <div class="w3-panel">
+        <h1 style="text-align: center;">Misíon</h1>
+        <p>Ser una compañía líder, ofreciendo a nuestros clientes un servicio de excelencia, prestado por colaboradores profesionales y dedicados, que permitan a sus clientes atender todavía un mayor nivel de excelencia comercial y operacional.</p>
+    </div>
+
+    <div class="w3-panel ">
+        <h1 class="w3-center">Valores</h1>
+        <div style="margin-left: 35%;">
+        <p>⌘ Responsabilidad</p>
+        <p>⌘ Asociación</p>
+        <p>⌘ Conocimiento certificado</p>
+        <p>⌘ Apertura y comunicación</p>
+        <p>⌘ Confianza</p>
+        <p>⌘ Calidad</p>
+        <p>⌘ Flexibilidad</p>
+    </div>
+    </div>
+    </div>
+
+
+    <div class="w3-container w3-col w3-half w3-mobile w3-margin-left" style="width: 30%;">
+        <img src="assets/mission.png" style="width: 100%; margin-top: 25%">
+    </div>
+
+</div>
+
+<!--Fim Cartão com Missão e Valores-->
+
+
+
+<!--Valores Estatísticos-->
+<div class="w3-row" style="margin-top: 5%;">
+    <div class="w3-col s4 w3-mobile w3-center">
+        <h3>40 000</h3>
+        <p>Intervenciones Técnicas por año</p>
+    </div>
+    <div class="w3-col s4 w3-mobile w3-center">
+        <h3>1 500 000</h3>
+        <p>Kms por año en todo país</p>
+    </div>
+    <div class="w3-col s4 w3-mobile w3-center">
+        <h3>180 000</h3>
+        <p>Gestión de Equipos Año</p>
+    </div>
+</div>
+<!--Fim Valores Estatísticos-->
+
+
+
+<!--Calidad-->
+<div   class="w3-panel " style="margin-top: 5%; text-align:center">
+    <h2>Calidad <img src="assets/calidad.png" style="width: 20%;"></h2>
+    <p>Nuestros Certificados de Calidad</p>
+</div>
+<br>
+<div class="w3-row" >
+    <div class="w3-col s4 w3-mobile w3-center">
+        <img src="assets/certif.jpg" style="width: 60%;"></img>
+        <h3>CERTIF</h3>
+        <p>Certificate SAC – 588/2015</p>
+        <p>Certificación de la empresa en manipulación de gases fluorados</p>
+    </div>
+    <div class="w3-col s4 w3-mobile w3-center">
+        <img src="assets/aipor.jpg" style="width: 60%;"></img>
+        <h3>AIPOR</h3>
+        <p id="equipo">Certificación de técnicos en manipulación de gases fluorados</p> <!--id=equipo aqui para bater certo no mapa depois-->
+    </div>
+    <div class="w3-col s4 w3-mobile w3-center">
+        <img src="assets/PME.jpg" style="width: 60%;"></img>
+        <h3>IAPMEI</h3>
+        <p>PME Lider</p>
+        <p>Estatuto PME</p>
+    </div>
+</div>
+<!--Fim Calidad-->
+
+
+
+<!--Equipo-->
+<br>
+<div  class="w3-panel w3-mobile " style="margin-top: 5%;">
+
+        <div class="w3-half w3-mobile">
+          <img src="assets/equipo.jpg" width="80%" style="margin-left: 7%;">
+        </div>
+        <div class="w3-half w3-mobile">
+          <h2 style="text-align: center;">Equipo</h2>
+          <div style="margin-left: 0%">
+          <p>Os nossos clientes podem contar com uma equipa de profissionais experientes e qualificados nas mais diversas áreas de actuação.</p>
+          <p>Procuramos constantemente satisfazer as necessidades dos nossos clientes com um serviço de excelência e qualidade.</p>
+            <div style="margin-top:7%; line-height: 210% ">
+            <p>⌘ Gestores dedicados</p>
+            <p>⌘ Técnicos de Frio Certificados em Gases Fluorados</p>
+            <p>⌘ Técnicos de Frio Credenciados</p>
+            <p>⌘ Técnicos Electromecânicos</p>
+            <p>⌘ Operadores Logisticos</p>
+            <p>⌘ Operadores Support Center</p>
+            <p>⌘ Administrativos</p>
+            <p>⌘ Técnicos Informáticos</p>
+        </div>
+        </div>
+        </p>
+        </div>
+</div>
+<!--Fim Equipo-->
+
+
+</div>
+    
+    
+</div>
+
+<!--Footer-->
+<div class="w3-panel w3-white">
+    <hr>
+    <div class="w3-col s4 w3-mobile w3-center">
+        <h3>Desea obtner más información?</h3>
+    </div>
+    <div class="w3-col s4 w3-mobile w3-center">
+        <p style="margin-top: 2%;"><button class="w3-button  w3-blue w3-round-xxlarge" ><a href="servicios.html">SERVICIOS</a></button></p>
+    </div>
+    <div class="w3-col s4 w3-mobile w3-center">
+        <p style="margin-top: 2%;"><button class="w3-button w3-blue w3-round-xxlarge"><a href="contactos.html" >CONTÁCTENOS</a></button></p>
+
+</div>
+</div>
+
+<!--Fim Footer-->
+
+<div class="w3-mobile quadrado">
+    <div class="list">
+        <p style="text-align: center">&copy;<script>document.write(new Date().getFullYear())</script> Equimif. All Rights Reserved</p>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+
