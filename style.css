@@ -55,8 +55,7 @@ a{
 }
 
 .hamburger{
-    display: none;
-    cursor: pointer;
+    display: none
 }
 
 .bar{
@@ -71,7 +70,9 @@ a{
 
 
 
-
+.valores{
+    margin-left: 35%;
+}
 
   
 
@@ -179,6 +180,7 @@ button.botaoservicios{
     overflow: hidden;
     z-index: -1;
     position: absolute;
+    
 }   
 
 .textovideo  
@@ -220,6 +222,11 @@ button.botaoservicios{
     margin-left: 45%;
     -webkit-text-size-adjust: 100%;
     z-index: 0
+}
+
+.imgcarreras {
+    width: 80%;
+    margin-left: 10%;
 }
 
 .ajustecarreras{
@@ -514,6 +521,12 @@ button.botaoservicios{
         margin-top: 10%;
         
     }
+
+    .responsive{
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
     
 
     .ServiciosEquimif {
@@ -526,8 +539,12 @@ button.botaoservicios{
     
     
     .ServiciosEquimif ul {
-        margin-top: 120%
+        margin-top: 80%
     
+    }
+
+    .valores{
+        margin: 0;
     }
     
 
@@ -576,9 +593,10 @@ button.botaoservicios{
 {
     width: max-content;
     height: max-content ;
-    margin-top:0%;
+    margin-top:8%;
     display: block;
-    position: fixed;
+    width: 300%;
+    
 
 }
 
@@ -594,6 +612,11 @@ button.botaoservicios{
     margin-left: 25%;
     -webkit-text-size-adjust: 100%;
     z-index: 0
+}
+
+.textovideoindex h1{
+    margin-top: 5%;
+    font-size: 200%;
 }
 
 
@@ -637,11 +660,96 @@ button.botaoservicios{
     
     
     
+    .textovideoservicios{
+        background-color: transparent;
+        color:  white;
+        position:absolute;
+        vertical-align: middle;
+        margin-top: 2%;
+        text-align: center;
+        font-size:x-small;
+        font-family: Open Sans,Arial,sans-serif;
+        margin-left: 45%;
+        -webkit-text-size-adjust: 100%;
+        z-index: 0
+    }
+
+    .textovideoservicios h1{
+        margin-top: 12%;
+        font-size: 200%;
+        margin-left: -80%;
+
+    }
+
+    .textovideoservicios p{
+        font-size: 200%;
+        margin-left: -80%;
+
+    }
+
+    .primeiralinhaservicios{
+        margin-top: 25%;
+    
+    }
 
 
+    .textovideoasociaciones{
+        background-color: transparent;
+        color:  white;
+        position:absolute;
+        vertical-align: middle;
+        margin-top: 2%;
+        text-align: center;
+        font-size:x-small;
+        font-family: Open Sans,Arial,sans-serif;
+        margin-left: 45%;
+        -webkit-text-size-adjust: 100%;
+        z-index: 0
+    }
 
+    .textovideoasociaciones h1{
+        font-size: 200%;
+        margin-top: 15%;
+        margin-left: -40%;
+    }
 
+    .textovideoasociaciones p{
+        margin-left: -40%;
+    }
 
+    #fotoclientes{
+        width: 90%; margin-left: 12%; margin-top: 50%; margin-bottom: 30%;
+    }
+
+    .textovideocarreras{
+        background-color: transparent;
+        color:  white;
+        position:absolute;
+        vertical-align: middle;
+        margin-top: 2%;
+        text-align: center;
+        font-size:x-small;
+        font-family: Open Sans,Arial,sans-serif;
+        margin-left: 45%;
+        -webkit-text-size-adjust: 100%;
+        z-index: 0
+    }
+
+    .textovideocarreras h1{
+        font-size: 200%;
+        margin-top: 15%;
+        margin-left: -40%;
+
+    }
+    .textovideocarreras p{
+        margin-left: -40%;
+
+    }
+    .imgcarreras {
+        width: 80%;
+        margin-left: 10%;
+        margin-top: 15%;
+    }
 
     .map{
         width: 50%;
